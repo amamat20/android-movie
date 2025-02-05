@@ -24,6 +24,14 @@ class LoginActivity : AppCompatActivity() {
         val btnDashboard = findViewById<Button>(R.id.btnDashboard)
         val tvRegister = findViewById<TextView>(R.id.tvRegister)
 
+        btnDashboard.setOnClickListener {
+            val intent = Intent(
+                this@LoginActivity,
+                DashboardActivity::class.java
+            )
+            startActivity(intent)
+        }
+
         tvRegister.setOnClickListener {
             val intent = Intent(
                 this@LoginActivity,

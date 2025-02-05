@@ -126,7 +126,7 @@
                     android:textColorHint="#000000" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/tvLogin"
                     style="@android:style/Widget.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,7 +134,6 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="32dp"
                     android:background="@drawable/background_btn1"
-                    android:enabled="false"
                     android:text="Sign Up"
                     android:textColor="@color/white"
                     android:textSize="18dp"
@@ -154,12 +153,14 @@
                         android:text="Do you already have an account?" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/textview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="Sign In"
-                        android:textColor="#7BD3EA" />
+                        android:textColor="#7BD3EA"
+                        android:clickable="true"
+                        android:focusable="true"/>
                 </LinearLayout>
 
             </LinearLayout>
